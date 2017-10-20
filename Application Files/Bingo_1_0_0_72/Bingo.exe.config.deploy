@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+  </configSections>
+  <appSettings>
+    <add key="BaseStation" value="SGN" />
+    <add key="LoggOut" value="15" />
+    <add key="SGN_DCS20" value="sPxkDYaJ549eb8Bsl9KpcBWzhm86KLpLiqzZsvNROLof9auVzs/WerhgwCm48eaGKC9bwVewMtuI633O/fKYlcddrgtpN2QBTjZwEe5mahs=" />
+    <add key="SGN_Bingo" value="sPxkDYaJ549eb8Bsl9KpcBWzhm86KLpLiqzZsvNROLoSUZeeoFGoY2SNUtt8fSmz8A5+ZwsZGxOSbSscOeVW7QgyEnr+wI8U+xw3DGZzAQHk4zq5251XIclCucPNDWeXWILxFrJEp4YqLWh5K79PTg==" />
+  </appSettings>
+  <connectionStrings>
+    <add name="DCS20ConnectionString" connectionString="sPxkDYaJ549eb8Bsl9KpcBWzhm86KLpLiqzZsvNROLof9auVzs/WerhgwCm48eaGKC9bwVewMtuI633O/fKYlcddrgtpN2QBTjZwEe5mahs=" providerName="System.Data.SqlClient" />
+    <add name="Bingo.Properties.Settings.BingoConnectionString" connectionString="sPxkDYaJ549eb8Bsl9KpcBWzhm86KLpLiqzZsvNROLoSUZeeoFGoY2SNUtt8fSmz8A5+ZwsZGxOSbSscOeVW7QgyEnr+wI8U+xw3DGZzAQHk4zq5251XIclCucPNDWeXWILxFrJEp4YqLWh5K79PTg==" providerName="System.Data.SqlClient" />
+  </connectionStrings>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0" />
+  </startup>
+</configuration>
+<!--global::Bingo.Properties.Settings.Default.BingoConnectionString-->
+<!--SysAdmin.clsEncDec.Decrypt(global::Bingo.Properties.Settings.Default.BingoConnectionString)-->
